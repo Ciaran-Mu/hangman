@@ -5,7 +5,7 @@
 1. [Installation instructions](#installation-instructions)
 1. [Usage instructions](#usage-instructions)
 1. [File structure](#file-structure)
-1. [License](#license)
+1. [License information](#license-information)
 
 ## Introduction
 
