@@ -26,7 +26,7 @@ class Hangman:
 
     def __update_guess(self, guess):
         '''
-        This function is used to update the word_guessed list withe guess in the correct place(s) and decrement the counter of unique letteres remaining.
+        This function is used to update the word_guessed list with the guess in the correct place(s) and decrement the counter of unique letteres remaining.
 
         Args:
             guess (str): a guess of a single alphabetical character
@@ -35,7 +35,7 @@ class Hangman:
         for index, letter in enumerate(self.word):
              if guess == letter:
                 self.word_guessed[index] = letter
-         # Reduce the number of unique letters left to guess by 1
+        # Reduce the number of unique letters left to guess by 1
         self.num_letters -= 1
 
     def __check_guess(self, guess):
@@ -52,8 +52,9 @@ class Hangman:
             print(f"Good guess! {guess} is in the word.")
             # Update the word_guessed list
             self.__update_guess(guess)
-
-            # print(f"word guessed: {self.word_guessed}, num_letters: {self.num_letters}")
+            # Show the user their guesses so far
+            word_guessed_output = "".join(self.word_guessed)
+            print(f"Your guesses so far: {word_guessed_output}")
         else:
             # Reduce the number of lives left by 1
             self.num_lives -= 1

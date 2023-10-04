@@ -22,7 +22,7 @@ cd hangman
 ```
 Then run the most recent milestone file
 ```
-python milestone_4.py
+python milestone_5.py
 ```
 
 ## Usage instructions
@@ -35,4 +35,4 @@ The milestone_x.py files represent iterations of the hangman project. Each is st
 
 ## License information
 
-To be updated
+MIT License
