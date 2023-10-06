@@ -20,18 +20,18 @@ To install this hangman game clone and enter the repository
 git clone https://github.com/Ciaran-Mu/hangman.git
 cd hangman
 ```
-Then run the most recent milestone file
+Then run the hangman_game file
 ```
-python milestone_5.py
+python hangman_game.py
 ```
 
 ## Usage instructions
 
-Instructions to enter a gues of one letter will appear in the terminal. Enter one letter as a guess and the output will tell you if it is contained within the random word chosen or not.
+Instructions to enter a guess of one letter will appear in the terminal. Enter one letter as a guess and the output will tell you if it is contained within the random word chosen or not.
 
 ## File structure
 
-The milestone_x.py files represent iterations of the hangman project. Each is standalone and the only dependency is the 'random' python module.
+The milestone_x.py files represent iterations of the hangman project, and the final version is hangman_game.py. Each is standalone and the only dependency is the 'random' Python module. Written in Python 3, not tested on previous versions
 
 ## License information
 
